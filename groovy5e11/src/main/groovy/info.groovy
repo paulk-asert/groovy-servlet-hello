@@ -9,7 +9,7 @@ html.html {
         title request.serverName
     }
     body {
-        h1 'Groovy 5 (e10)'
+        h1 'Groovy 5 (e11)'
         h2 "Groovy Server Version: $GroovySystem.version"
         h2 'groovy-servlet jar' + groovy.servlet.GroovyServlet.protectionDomain.codeSource.location
         h2 'jetty API jar' + jakarta.servlet.http.HttpServlet.protectionDomain.codeSource.location
