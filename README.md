@@ -19,7 +19,6 @@ Output (http:\//localhost:\<port>/info.groovy):
     groovy-servlet jarfile:/Users/paulk/.gradle/caches/modules-2/files-2.1/org.apache.groovy/groovy-servlet/4.0.24/6d57aea3d60893307ad28021d733c40cb161b523/groovy-servlet-4.0.24.jar
     jetty API jarfile:/Users/paulk/.gradle/caches/modules-2/files-2.1/javax.servlet/javax.servlet-api/3.1.0/3cd63d075497751784b2fa84be59432f4905bf7c/javax.servlet-api-3.1.0.jar
     Effective Servlet Spec version: 3.1
-    You have invoked this Groovlet 1 times.
     ======
     Groovy 4 (javax/ee8)
     Groovy Server Version: 4.0.24
