@@ -9,4 +9,11 @@ allprojects {
             url 'https://repository.apache.org/content/repositories/snapshots'
         }
     }
+//    tasks.register("copyDependenciesToLib", Copy) {
+//        into project.layout.buildDirectory.dir('lib')
+//        from project.configurations.runtimeClasspath.files
+//        doLast {
+//            println "copyDependenciesToLib:\n  ${project.configurations.runtimeClasspath.files*.absolutePath.join('\n  ')}\n  ->\n  $buildDir/lib"
+//        }
+//    }
 }

@@ -1,0 +1,19 @@
+plugins {
+    id 'groovy'
+    id 'application'
+}
+
+dependencies {
+    implementation "org.apache.groovy:groovy:5.0.0-SNAPSHOT"
+    implementation "org.apache.groovy:groovy-servlet:5.0.0-SNAPSHOT"
+    implementation "org.apache.groovy:groovy-xml:5.0.0-SNAPSHOT"
+    implementation "org.apache.groovy:groovy-json:5.0.0-SNAPSHOT"
+    implementation 'org.eclipse.jetty.ee11:jetty-ee11:12.1.0.alpha0'
+    implementation 'org.eclipse.jetty.ee11.websocket:jetty-ee11-websocket:12.1.0.alpha0'
+    implementation 'org.eclipse.jetty.ee11:jetty-ee11-servlet:12.1.0.alpha0'
+    implementation 'org.slf4j:slf4j-simple:2.0.16'
+}
+
+application {
+    mainClass = 'run'
+}

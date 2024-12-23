@@ -1,1 +1,1 @@
-include 'groovy4', 'groovy5', 'groovy5e11', 'hybrid'
+include 'groovy4_javax7', 'groovy4_javax8', 'hybrid_javax8', 'groovy5_jakarta9', 'groovy5_jakarta10', 'groovy5_jakarta11'
