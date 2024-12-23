@@ -9,7 +9,7 @@ html.html {
         title request.servletName
     }
     body {
-        h1 'Hybrid (javax8)'
+        h1 'Hybrid (javax/ee8)'
         h2 "Groovy Server Version: $GroovySystem.version"
         h2 'groovy-servlet jar' + groovy.servlet.GroovyServlet.protectionDomain.codeSource.location
         h2 'jetty API jar' + javax.servlet.http.HttpServlet.protectionDomain.codeSource.location

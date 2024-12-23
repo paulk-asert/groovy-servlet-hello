@@ -26,7 +26,7 @@ Output (http:\//localhost:\<port>/info.groovy):
     jetty API jarfile:/Users/paulk/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.toolchain/jetty-servlet-api/4.0.6/959c5d83d08f5cddf56caff749e48b735193191b/jetty-servlet-api-4.0.6.jar
     Effective Servlet Spec version: 4.0
     ======
-    Hybrid (javax8)
+    Hybrid (javax/ee8)
     Groovy Server Version: 5.0.0-SNAPSHOT
     groovy-servlet jarfile:/Users/paulk/.gradle/caches/modules-2/files-2.1/org.apache.groovy/groovy-servlet/4.0.24/6d57aea3d60893307ad28021d733c40cb161b523/groovy-servlet-4.0.24.jar
     jetty API jarfile:/Users/paulk/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.toolchain/jetty-servlet-api/4.0.6/959c5d83d08f5cddf56caff749e48b735193191b/jetty-servlet-api-4.0.6.jar
