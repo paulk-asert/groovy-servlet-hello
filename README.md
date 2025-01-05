@@ -5,6 +5,7 @@ Hello world examples running Groovlets with Jetty.
 | groovy4_javax7    | javax/EE7/JDK8+     | 4.0.24             | 4.0.24                     | 9.4.56.v20240826 | 8007 |
 | groovy4_javax8    | javax/EE8/JDK11+    | 4.0.24             | 4.0.24                     | 10.0.21          | 8008 |
 | hybrid_javax8     | javax/EE8/JDK11+    | 5.0.0-SNAPSHOT     | 4.0.24                     | 10.0.21          | 8080 |
+| groovy5_javax8    | javax/EE8/JDK11+    | 5.0.0-SNAPSHOT     | 5.0.0-SNAPSHOT:javax       | 10.0.21          | 9008 |
 | groovy5_jakarta9  | jakarta/EE9/JDK11+  | 5.0.0-SNAPSHOT     | 5.0.0-SNAPSHOT             | 12.0.16          | 9009 |
 | groovy5_jakarta10 | jakarta/EE10/JDK11+ | 5.0.0-SNAPSHOT     | 5.0.0-SNAPSHOT             | 12.0.16          | 9010 |
 | groovy5_jakarta11 | jakarta/EE11/JDK17+ | 5.0.0-SNAPSHOT     | 5.0.0-SNAPSHOT             | 12.1.0.alpha0    | 9011 |
@@ -29,6 +30,12 @@ Output (http:\//localhost:\<port>/info.groovy):
     Hybrid (javax/ee8)
     Groovy Server Version: 5.0.0-SNAPSHOT
     groovy-servlet jarfile:/Users/paulk/.gradle/caches/modules-2/files-2.1/org.apache.groovy/groovy-servlet/4.0.24/6d57aea3d60893307ad28021d733c40cb161b523/groovy-servlet-4.0.24.jar
+    jetty API jarfile:/Users/paulk/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.toolchain/jetty-servlet-api/4.0.6/959c5d83d08f5cddf56caff749e48b735193191b/jetty-servlet-api-4.0.6.jar
+    Effective Servlet Spec version: 4.0
+    ======
+    Groovy 5 (javax classifier/ee8)
+    Groovy Server Version: 5.0.0-SNAPSHOT
+    groovy-servlet jarfile:/Users/paulk/.gradle/caches/modules-2/files-2.1/org.apache.groovy/groovy-servlet/5.0.0-SNAPSHOT/e097db97e6a75825cb7746013e2c17d46226e0fb/groovy-servlet-5.0.0-SNAPSHOT-javax.jar
     jetty API jarfile:/Users/paulk/.gradle/caches/modules-2/files-2.1/org.eclipse.jetty.toolchain/jetty-servlet-api/4.0.6/959c5d83d08f5cddf56caff749e48b735193191b/jetty-servlet-api-4.0.6.jar
     Effective Servlet Spec version: 4.0
     ======
